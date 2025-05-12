@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>گالری احسان</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      font-family: "Segoe UI", sans-serif;
+      color: #f5f5f5;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 40px 0 20px;
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.15);
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 1rem;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>گالری آثار احسان</h1>
+
+  <div class="gallery">
+    <img src="https://s33.picofile.com/file/8484411034/WhatsApp_Image_2025_05_12_at_15_07_14.jpeg" alt="تصویر 1">
+    <img src="https://s33.picofile.com/file/8484411042/WhatsApp_Image_2025_05_12_at_15_07_13_1_.jpeg" alt="تصویر 2">
+    <img src="https://s33.picofile.com/file/8484411050/WhatsApp_Image_2025_05_12_at_15_07_10_1_.jpeg" alt="تصویر 3">
+    <img src="https://s33.picofile.com/file/8484411076/20250512_1237_Reflective_Industrial_Walk_simple_compose_01jv1vwqj9exytd5rgfy8sdtry.png" alt="تصویر 4">
+  </div>
+
+  <footer>
+    <p>ممنون که از وب‌سایت من بازدید کردید 🌟</p>
+  </footer>
+
+</body>
+</html>
